@@ -46,6 +46,8 @@ privileged:
   - SYS_RAWIO
   - SYS_TIME
   - SYS_NICE
+full_access: true
+apparmor: false
 backup_exclude:
   - "**/Plex Media Server/Cache/**"
   - "**/Plex Media Server/Plug-in Support/Caches/**"
