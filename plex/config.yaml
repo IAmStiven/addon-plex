@@ -11,7 +11,7 @@ arch:
   - aarch64
   - amd64
 hassio_api: true
-hassio_role: manager
+hassio_role: admin
 map:
   - media:rw
   - share:rw
