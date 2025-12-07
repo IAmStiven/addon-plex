@@ -40,7 +40,12 @@ ports_description:
   32413/udp: GDM network discovery
   32414/udp: GDM network discovery
   32469/tcp: Plex DLNA Server
-hassio_api: true
+privileged:
+  - NET_ADMIN
+  - SYS_ADMIN
+  - SYS_RAWIO
+  - SYS_TIME
+  - SYS_NICE
 backup_exclude:
   - "**/Plex Media Server/Cache/**"
   - "**/Plex Media Server/Plug-in Support/Caches/**"
